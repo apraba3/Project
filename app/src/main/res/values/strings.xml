@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Language App</string>
+    <string name="phrases">Phrases</string>
+    <string name="colors">Colors</string>
+    <string name="numbers">Numbers</string>
+    <string name="food">Food</string>
+    <string name="googleTranslate">Google Translate</string>
+    <string name="voice">Speech To Text Voice Recognition</string>
+
+    <!-- Toast strings -->
+    <string name="phrasesToast">Phrases Chosen</string>
+    <string name="colorsToast">Colors Chosen</string>
+    <string name="numbersToast">Numbers Chosen</string>
+    <string name="foodToast">Food Chosen</string>
+    <string name="googleToast">Google Translate Chosen</string>
+    <string name="listenToast">Listening Started</string>
+
+    <!-- Phrases strings -->
+
+    <!-- English Phrases -->
+    <string name="phraseEnglish1">Hello!</string>
+    <string name="phraseEnglish2">How are you?</string>
+    <string name="phraseEnglish3">Where are you from?</string>
+    <string name="phraseEnglish4">I am from...</string>
+    <string name="phraseEnglish5">What is your name?</string>
+    <string name="phraseEnglish6">My name is...</string>
+    <string name="phraseEnglish7">Thank You.</string>
+    <string name="phraseEnglish8">You are welcome.</string>
+    <string name="phraseEnglish9">Good Morning.</string>
+    <string name="phraseEnglish10">Good Afternoon.</string>
+    <string name="phraseEnglish11">Good Evening.</string>
+    <string name="phraseEnglish12">Excuse me.</string>
+    <string name="phraseEnglish13">Please.</string>
+    <string name="phraseEnglish14">What time is it?</string>
+    <string name="phraseEnglish15">Where is the restroom?</string>
+    <string name="phraseEnglish16">I do not understand.</string>
+
+    <!-- Spanish Phrases -->
+    <string name="phraseSpanish1">Hola!</string>
+    <string name="phraseSpanish2">Cómo está usted?</string>
+    <string name="phraseSpanish3">De dónde eres?</string>
+    <string name="phraseSpanish4">Yo Soy de...</string>
+    <string name="phraseSpanish5">Cómo se llama usted?</string>
+    <string name="phraseSpanish6">Me llamo...</string>
+    <string name="phraseSpanish7">Gracias.</string>
+    <string name="phraseSpanish8">De nada.</string>
+    <string name="phraseSpanish9">Buenos días.</string>
+    <string name="phraseSpanish10">Buenas tardes.</string>
+    <string name="phraseSpanish11">Buenas noches.</string>
+    <string name="phraseSpanish12">Perdón.</string>
+    <string name="phraseSpanish13">Por favor.</string>
+    <string name="phraseSpanish14">Qué hora es?</string>
+    <string name="phraseSpanish15">Dónde está el baño?</string>
+    <string name="phraseSpanish16">Yo no comprendo.</string>
+    <string name="title_activity_google_translate">GoogleTranslate</string>
+
+</resources>

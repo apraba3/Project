@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#41004D</color>
+    <color name="colorPrimaryDark">#41004D</color>
+
+    <!-- Category colors -->
+
+    <color name="phrases">#3A4AA6</color>
+    <color name="numbers">#1766A6</color>
+    <color name="colors">#0272A6</color>
+    <color name="food">#0092A6</color>
+    <color name="googleTranslate">#008080</color>
+</resources>
