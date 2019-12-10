@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A08B8A"
-    tools:context="com.example.shrey.languageapp.MainActivity">
+    tools:context="com.example.project.MainActivity">
 
     <TextView
         android:id="@+id/nums"
