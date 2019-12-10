@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.support.v7.app.AppCompatActivity;
 import java.util.ArrayList;
+//import android.support.v7.app.AppCompatActivity;
 
 public class Colors extends AppCompatActivity {
 
@@ -14,27 +14,27 @@ public class Colors extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
-        
         //ArrayList containing the phrases that will be displayed to the user
-        ArrayList<Word> colors = new ArrayList<Word>();
-        colors.add(new Word("Red", "Rojo", R.mipmap.ic_launcher));
-        colors.add(new Word("Orange", "Anaranjado", R.mipmap.ic_launcher));
-        colors.add(new Word("Yellow", "Amrillo", R.mipmap.ic_launcher));
-        colors.add(new Word("Green", "Verde", R.mipmap.ic_launcher));
-        colors.add(new Word("Blue", "Azul", R.mipmap.ic_launcher));
-        colors.add(new Word("Purple", "Morado", R.mipmap.ic_launcher));
-        colors.add(new Word("Pink", "Rosado", R.mipmap.ic_launcher));
-        colors.add(new Word("Brown", "Marrón", R.mipmap.ic_launcher));
-        colors.add(new Word("Black", "Negro", R.mipmap.ic_launcher));
-        colors.add(new Word("White", "Blanco", R.mipmap.ic_launcher));
-
+        ArrayList<Word> color = new ArrayList<Word>();
+        color.add(new Word("Red", "Rojo", R.mipmap.ic_launcher));
+        //
+        color.add(new Word("Orange", "Anaranjado", R.mipmap.ic_launcher));
+        //
+        color.add(new Word("Yellow", "Amrillo", R.mipmap.ic_launcher));
+        //
+        color.add(new Word("Green", "Verde", R.mipmap.ic_launcher));
+        //
+        color.add(new Word("Blue", "Azul", R.mipmap.ic_launcher));
+        //
+        color.add(new Word("Purple", "Morado", R.mipmap.ic_launcher));
+        //
+        color.add(new Word("Pink", "Rosado", R.mipmap.ic_launcher));
+        //
         //Custom Array Adapter to hold Word ArrayList
-        WordAdapter itemsAdapter = new WordAdapter(this, colors);
-
+        WordAdapter iA = new WordAdapter(this, color);
+        //
         ListView listView = (ListView) findViewById(R.id.wordList);
-
-        listView.setAdapter(itemsAdapter);
-
+        listView.setAdapter(iA);
         //Back button to take you back one screen
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

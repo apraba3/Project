@@ -10,10 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Shrey Patel on 2018-02-25.
- */
-
 public class WordAdapter extends ArrayAdapter<Word> {
 
     public WordAdapter(Activity context, ArrayList<Word> words) {
@@ -30,13 +26,13 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         Word currentWord = getItem(position);
 
-        ImageView wordImageView = (ImageView) listItemView.findViewById(R.id.wordImageView);
-        TextView englishTextView = (TextView) listItemView.findViewById(R.id.englishTextView);
-        TextView translationTextView = (TextView) listItemView.findViewById(R.id.translationTextView);
+        ImageView wIV = (ImageView) listItemView.findViewById(R.id.wIV);
+        TextView eTV = (TextView) listItemView.findViewById(R.id.englishTV);
+        TextView tTV = (TextView) listItemView.findViewById(R.id.transTV);
 
-        wordImageView.setImageResource(currentWord.getImageId());
-        englishTextView.setText(currentWord.getEnglish());
-        translationTextView.setText(currentWord.getTranslation());
+        wIV.setImageResource(currentWord.getImageId());
+        eTV.setText(currentWord.getEnglish());
+        tTV.setText(currentWord.getTranslation());
 
         return listItemView;
     }

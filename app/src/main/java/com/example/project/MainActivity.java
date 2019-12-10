@@ -6,84 +6,62 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-/*
-        TextView phrasesTextView = (TextView) findViewById(R.id.phrases);
-
-        phrasesTextView.setOnClickListener(new OnClickListener() {
-
+        TextView pTV = (TextView) findViewById(R.id.phrases);
+        pTV.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent phrasesIntent = new Intent(MainActivity.this, Phrases.class);
-                startActivity(phrasesIntent);
-
+                Intent pIntent = new Intent(MainActivity.this, Phrases.class);
+                startActivity(pIntent);
                 Toast.makeText(MainActivity.this, getString(R.string.phrasesToast),
                         Toast.LENGTH_SHORT).show();
             }
         });
 
- */
-
-        TextView numbersTextView = (TextView) findViewById(R.id.numbers);
-
-        numbersTextView.setOnClickListener(new OnClickListener() {
-
+        TextView nTV = (TextView) findViewById(R.id.nums);
+        nTV.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, Numbers.class);
-                startActivity(numbersIntent);
-
+                Intent nIntent = new Intent(MainActivity.this, Numbers.class);
+                startActivity(nIntent);
                 Toast.makeText(MainActivity.this, getString(R.string.numbersToast),
                         Toast.LENGTH_SHORT).show();
             }
         });
 
-        TextView colorsTextView = (TextView) findViewById(R.id.colors);
-
-        colorsTextView.setOnClickListener(new OnClickListener() {
-
+        TextView cTV= (TextView) findViewById(R.id.colors);
+        cTV.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent colorsIntent = new Intent(MainActivity.this, Colors.class);
-                startActivity(colorsIntent);
-
+                Intent cIntent = new Intent(MainActivity.this, Colors.class);
+                startActivity(cIntent);
                 Toast.makeText(MainActivity.this, getString(R.string.colorsToast),
                         Toast.LENGTH_SHORT).show();
             }
         });
-
-        TextView foodTextView = (TextView) findViewById(R.id.food);
-
-        foodTextView.setOnClickListener(new OnClickListener() {
-
+        TextView fTV = (TextView) findViewById(R.id.food);
+        fTV.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodIntent = new Intent(MainActivity.this, Food.class);
-                startActivity(foodIntent);
-
+                Intent fIntent = new Intent(MainActivity.this, Food.class);
+                startActivity(fIntent);
                 Toast.makeText(MainActivity.this, getString(R.string.foodToast),
                         Toast.LENGTH_SHORT).show();
             }
         });
-
-        TextView googleTextView = (TextView) findViewById(R.id.googleTranslate);
-
-        googleTextView.setOnClickListener(new OnClickListener() {
-
+        TextView gTV = (TextView) findViewById(R.id.googleTranslate);
+        gTV.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent googleIntent = new Intent(MainActivity.this, GoogleTranslate.class);
-                startActivity(googleIntent);
-
+                Intent gIntent = new Intent(MainActivity.this, GoogleTranslate.class);
+                startActivity(gIntent);
                 Toast.makeText(MainActivity.this, getString(R.string.googleToast),
                         Toast.LENGTH_SHORT).show();
             }

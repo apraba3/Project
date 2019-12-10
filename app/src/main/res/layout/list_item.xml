@@ -8,31 +8,33 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/wordImageView"
+        android:id="@+id/wIV"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:paddingTop="16dp"
         android:paddingRight="16dp"
-        android:paddingBottom="16dp"/>
+        android:paddingBottom="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/translationTextView"
+        android:id="@+id/transTV"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/englishTextView"
-        app:layout_constraintLeft_toRightOf="@id/wordImageView"
+        app:layout_constraintBottom_toTopOf="@id/englishTV"
+        app:layout_constraintLeft_toRightOf="@id/wIV"
         app:layout_constraintRight_toRightOf="parent"
         android:paddingTop="8dp"
         android:textSize="24dp"
         android:textColor="@color/colorPrimary"/>
 
     <TextView
-        android:id="@+id/englishTextView"
+        android:id="@+id/englishTV"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintLeft_toRightOf="@id/wordImageView"
+        app:layout_constraintLeft_toRightOf="@id/wIV"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/translationTextView"
+        app:layout_constraintTop_toBottomOf="@+id/transTV"
         android:paddingBottom="8dp"
         android:textSize="20dp"
         android:textColor="@color/colorPrimary"/>

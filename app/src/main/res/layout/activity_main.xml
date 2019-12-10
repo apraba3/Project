@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#41004D"
+    android:background="#A08B8A"
     tools:context="com.example.shrey.languageapp.MainActivity">
 
     <TextView
-        android:id="@+id/numbers"
+        android:id="@+id/nums"
         style="@style/CategoryStyle"
         android:background="@color/numbers"
         android:text="@string/numbers"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="parent" />
 
     <TextView
         android:id="@+id/colors"
@@ -21,7 +21,7 @@
         android:background="@color/colors"
         android:text="@string/colors"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/numbers" />
+        app:layout_constraintTop_toBottomOf="@id/nums" />
 
     <TextView
         android:id="@+id/food"
@@ -30,6 +30,14 @@
         android:text="@string/food"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/colors" />
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/CategoryStyle"
+        android:background="@color/phrases"
+        android:text="@string/phrases"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/food" />
 
     <TextView
         android:id="@+id/googleTranslate"
