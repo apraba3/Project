@@ -39,13 +39,6 @@ public class GoogleTranslate extends AppCompatActivity {
         });
         //
         searchTxt = (EditText) findViewById(R.id.userEnter);
-        Button vlBTN = (Button) findViewById(R.id.listen);
-        vlBTN.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                speechListener();
-            }
-        });
     }
     private void speechListener() {
         Intent sIentent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
