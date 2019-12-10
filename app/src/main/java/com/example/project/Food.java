@@ -20,19 +20,19 @@ public class Food extends AppCompatActivity {
         //ArrayList containing the phrases that will be displayed to the user
         ArrayList<Word> food = new ArrayList<Word>();
         //
-        food.add(new Word("Beef", "Carne de res", R.mipmap.ic_launcher));
+        food.add(new Word("Beef", "Du boeuf", R.mipmap.ic_launcher));
         //
-        food.add(new Word("Lamb", "Cordero", R.mipmap.ic_launcher));
+        food.add(new Word("Lamb", "Agneau", R.mipmap.ic_launcher));
         //
-        food.add(new Word("Chicken", "Pollo", R.mipmap.ic_launcher));
+        food.add(new Word("Chicken", "Poulette", R.mipmap.ic_launcher));
         //
-        food.add(new Word("Lettuce", "Lechuga", R.mipmap.ic_launcher));
+        food.add(new Word("Lettuce", "Salade", R.mipmap.ic_launcher));
         //
         food.add(new Word("Tomato", "Tomate", R.mipmap.ic_launcher));
         //
-        food.add(new Word("Pickles", "Pepinillos", R.mipmap.ic_launcher));
+        food.add(new Word("Pickles", "Cornichons", R.mipmap.ic_launcher));
         //
-        food.add(new Word("Beans", "Frijoles", R.mipmap.ic_launcher));
+        food.add(new Word("Beans", "Haricot", R.mipmap.ic_launcher));
         //
         //Custom Array Adapter to hold Word ArrayList
         WordAdapter iAr = new WordAdapter(this, food);

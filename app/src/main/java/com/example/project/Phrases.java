@@ -17,24 +17,25 @@ public class Phrases extends AppCompatActivity {
         //ArrayList containing the phrases that will be displayed to the user
         ArrayList<Word> phrases = new ArrayList<Word>();
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish1), getString(R.string.phraseSpanish1)));
+        phrases.add(new Word(getString(R.string.phraseEnglish1), getString(R.string.phraseFrench1)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish2), getString(R.string.phraseSpanish2)));
+        phrases.add(new Word(getString(R.string.phraseEnglish2), getString(R.string.phraseFrench2)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish3), getString(R.string.phraseSpanish3)));
+        phrases.add(new Word(getString(R.string.phraseEnglish3), getString(R.string.phraseFrench3)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish4), getString(R.string.phraseSpanish4)));
+        phrases.add(new Word(getString(R.string.phraseEnglish4), getString(R.string.phraseFrench4)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish5), getString(R.string.phraseSpanish5)));
+        phrases.add(new Word(getString(R.string.phraseEnglish5), getString(R.string.phraseFrench5)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish6), getString(R.string.phraseSpanish6)));
+        phrases.add(new Word(getString(R.string.phraseEnglish6), getString(R.string.phraseFrench6)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish7), getString(R.string.phraseSpanish7)));
+        phrases.add(new Word(getString(R.string.phraseEnglish7), getString(R.string.phraseFrench7)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish8), getString(R.string.phraseSpanish8)));
+        phrases.add(new Word(getString(R.string.phraseEnglish8), getString(R.string.phraseFrench8)));
         //
-        phrases.add(new Word(getString(R.string.phraseEnglish9), getString(R.string.phraseSpanish9)));
+        phrases.add(new Word(getString(R.string.phraseEnglish9), getString(R.string.phraseFrench9)));
         //
+        phrases.add(new Word(getString(R.string.phraseEnglish10), getString(R.string.phraseFrench10)));
         //Custom Array Adapter to hold Word ArrayList
         WordAdapter itemsAdapter = new WordAdapter(this, phrases);
         //

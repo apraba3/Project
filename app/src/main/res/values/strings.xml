@@ -22,22 +22,24 @@
     <string name="phraseEnglish2">Good afternoon</string>
     <string name="phraseEnglish3">Nice to meet you</string>
     <string name="phraseEnglish4">See you later</string>
-    <string name="phraseEnglish5">Good Morning</string>
-    <string name="phraseEnglish6">Good Afternoon</string>
-    <string name="phraseEnglish7">Good Evening</string>
-    <string name="phraseEnglish8">Excuse me</string>
-    <string name="phraseEnglish9">Please</string>
+    <string name="phraseEnglish5">Good Evening</string>
+    <string name="phraseEnglish6">How Are You?</string>
+    <string name="phraseEnglish7">Thank You</string>
+    <string name="phraseEnglish8">Goodbye</string>
+    <string name="phraseEnglish9">I Love You</string>
+    <string name="phraseEnglish10">Please</string>
 
     <!-- Spanish Phrases -->
-    <string name="phraseSpanish1">Buenos días</string>
-    <string name="phraseSpanish2">Buenas tardes</string>
-    <string name="phraseSpanish3">Mucho gusto</string>
-    <string name="phraseSpanish4">Hasta lueg</string>
-    <string name="phraseSpanish5">Buenos días</string>
-    <string name="phraseSpanish6">Buenas tardes</string>
-    <string name="phraseSpanish7">Buenas noches</string>
-    <string name="phraseSpanish8">Perdón</string>
-    <string name="phraseSpanish9">Por favor</string>
+    <string name="phraseFrench1">Bonjour</string>
+    <string name="phraseFrench2">Bonne après-midi</string>
+    <string name="phraseFrench3">Ravi de vous rencontrer</string>
+    <string name="phraseFrench4">À plus tard</string>
+    <string name="phraseFrench5">Bonsoir</string>
+    <string name="phraseFrench6">Comment allez-vous?</string>
+    <string name="phraseFrench7">Je vous remercie</string>
+    <string name="phraseFrench8">Au revoir</string>
+    <string name="phraseFrench9">Je t aime</string>
+    <string name="phraseFrench10">S il vous plaît</string>
 
     <string name="title_activity_google_translate">GoogleTranslate</string>
 

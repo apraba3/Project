@@ -16,19 +16,19 @@ public class Colors extends AppCompatActivity {
         setContentView(R.layout.word_list);
         //ArrayList containing the phrases that will be displayed to the user
         ArrayList<Word> color = new ArrayList<Word>();
-        color.add(new Word("Red", "Rojo", R.mipmap.ic_launcher));
+        color.add(new Word("Red", "Rouge", R.mipmap.ic_launcher));
         //
-        color.add(new Word("Orange", "Anaranjado", R.mipmap.ic_launcher));
+        color.add(new Word("Orange", "Orange", R.mipmap.ic_launcher));
         //
-        color.add(new Word("Yellow", "Amrillo", R.mipmap.ic_launcher));
+        color.add(new Word("Yellow", "Jaune", R.mipmap.ic_launcher));
         //
-        color.add(new Word("Green", "Verde", R.mipmap.ic_launcher));
+        color.add(new Word("Green", "Vert", R.mipmap.ic_launcher));
         //
-        color.add(new Word("Blue", "Azul", R.mipmap.ic_launcher));
+        color.add(new Word("Blue", "Bleu", R.mipmap.ic_launcher));
         //
-        color.add(new Word("Purple", "Morado", R.mipmap.ic_launcher));
+        color.add(new Word("Purple", "Violet", R.mipmap.ic_launcher));
         //
-        color.add(new Word("Pink", "Rosado", R.mipmap.ic_launcher));
+        color.add(new Word("Pink", "Rose", R.mipmap.ic_launcher));
         //
         //Custom Array Adapter to hold Word ArrayList
         WordAdapter iA = new WordAdapter(this, color);

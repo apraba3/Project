@@ -30,7 +30,7 @@ public class GoogleTranslate extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String trans = searchTxt.getText().toString();
-                String tranURL = "https://translate.google.ca/#en/es/" + trans;
+                String tranURL = "https://translate.google.ca/#en/fr/" + trans;
                 tranURL = tranURL.replaceAll(" ", "%20");
 
                 Intent bIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(tranURL));

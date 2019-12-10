@@ -17,17 +17,17 @@ public class Numbers extends AppCompatActivity {
         setContentView(R.layout.word_list);
         //ArrayList containing the phrases that will be displayed to the user
         ArrayList<Word> numbers = new ArrayList<Word>();
-        numbers.add(new Word("Zero", "Cero", R.mipmap.ic_launcher));
-        numbers.add(new Word("One", "Uno", R.mipmap.ic_launcher));
-        numbers.add(new Word("Two", "Dos", R.mipmap.ic_launcher));
-        numbers.add(new Word("Thre", "Tres", R.mipmap.ic_launcher));
-        numbers.add(new Word("Four", "Cuatro", R.mipmap.ic_launcher));
-        numbers.add(new Word("Five", "Cinco", R.mipmap.ic_launcher));
-        numbers.add(new Word("Six", "Seis", R.mipmap.ic_launcher));
-        numbers.add(new Word("Seven", "Siete", R.mipmap.ic_launcher));
-        numbers.add(new Word("Eight", "Ocho", R.mipmap.ic_launcher));
-        numbers.add(new Word("Nine", "Nueve", R.mipmap.ic_launcher));
-        numbers.add(new Word("Ten", "Diez", R.mipmap.ic_launcher));
+        numbers.add(new Word("Zero", "Zéro", R.mipmap.ic_launcher));
+        numbers.add(new Word("One", "Une", R.mipmap.ic_launcher));
+        numbers.add(new Word("Two", "Deux", R.mipmap.ic_launcher));
+        numbers.add(new Word("Thre", "Trois", R.mipmap.ic_launcher));
+        numbers.add(new Word("Four", "Quatre", R.mipmap.ic_launcher));
+        numbers.add(new Word("Five", "Cinq", R.mipmap.ic_launcher));
+        numbers.add(new Word("Six", "Six", R.mipmap.ic_launcher));
+        numbers.add(new Word("Seven", "Sept", R.mipmap.ic_launcher));
+        numbers.add(new Word("Eight", "Huit", R.mipmap.ic_launcher));
+        numbers.add(new Word("Nine", "Neuf", R.mipmap.ic_launcher));
+        numbers.add(new Word("Ten", "Dix", R.mipmap.ic_launcher));
         //
         //Custom Array Adapter to hold Word ArrayList
         WordAdapter adapt = new WordAdapter(this, numbers);
